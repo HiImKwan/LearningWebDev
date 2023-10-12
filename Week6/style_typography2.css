@@ -1,0 +1,40 @@
+.page {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    font-family: arial,sans-serif,serif;
+}
+
+body {
+    margin: 8px;
+}
+
+.page h1 {
+    font-family: serifs;
+    font-size: 1.5rem;
+}
+
+.page p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.credit {
+    color: #999;
+    font-size: x-small;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image-caption {
+    font-size: 0.75rem;
+    padding-top: 0.5rem;
+}
+
+div.image-box img {
+    width: 100%;
+}

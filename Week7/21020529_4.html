@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4 - Week7</title>
+</head>
+<body>
+    <img src="pic2.jpg" alt="Click Me" id="openGoogle" onclick="openVNExpress()">
+    <form>
+        <input type="button" value="Close" onclick="closeWindow()">
+    </form>
+    <script>
+        var vnexpressWindow;
+        function openVNExpress() {
+            vnexpressWindow = window.open("https://vnexpress.net");
+        }
+        function closeWindow() {
+            vnexpressWindow.close();
+        }
+    </script>
+</body>
+</html>

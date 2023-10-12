@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: purple;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+}
+
+div, article {
+    flex: 1;
+}
+
+content {
+    display: flex;
+}
+
+content, div {
+    display: flex;
+}
+
+article {
+    background: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+
+.credit {
+    display: block;
+    color: #999;
+    font-size: x-small;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+article:nth-of-type(2) {
+    flex: 2;
+}

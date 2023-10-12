@@ -1,0 +1,44 @@
+.header {
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+    width: 10%;
+    text-align: right;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    text-align: left;
+}
+
+.middle {
+    border-left: 3px solid green;
+    padding-left: 10px;
+    float: left;
+    width: 70%;
+}
+
+.footer {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+}
+
+.border {
+    height: auto;
+    border-style: dotted;
+    padding-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

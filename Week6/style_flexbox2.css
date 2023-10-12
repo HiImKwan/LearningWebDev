@@ -1,0 +1,46 @@
+div.container {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 2em auto;
+    font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+.container > div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(207,232,220);
+    border: 2px solid rgb(79,185,227);
+    flex: 1;
+}
+
+article {
+    flex: 3;
+    order: 1;
+    padding-left: 20px;
+}
+
+aside {
+    flex: 1;
+    order: 0;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+.credit {
+    color: #999;
+    font-size: x-small;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
